@@ -1,0 +1,36 @@
+body {
+  min-height: 2000px;
+  padding-top: 30px;
+  background-color: #eef;
+}
+
+header.jumbotron {
+  height: 510px;
+  background: url("../img/yakei.jpeg") center 0 no-repeat;
+  background-size: cover;
+}
+
+h1.logo {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+}
+
+p.photo {
+  padding: 0 0;
+  text-align: center;
+}
+
+h1.jumbotron-h1{
+  text-indent:100%;
+　white-space:nowrap;
+　overflow:hidden;
+}
+
+@media (max-width: 767px){
+  header.jumbotron {
+    height: 410px;
+    background: url("../img/it.png") center no-repeat;
+    background-size: cover;
+  }
+}
